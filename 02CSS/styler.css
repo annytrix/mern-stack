@@ -1,0 +1,41 @@
+/*Tag Element selector */
+
+/*h1{
+    background-color: brown;
+}
+ul{
+    background-color: greenyellow;
+}
+h2{
+    background-color: aquamarine;
+} */
+ 
+/*id Base selecton*/
+
+/*#first{
+    background-color: beige;
+}
+#second{
+    background-color: azure;
+}
+#third{
+    background-color: aqua;
+}*/
+
+/*Class based selection*/
+
+/*third{
+    background-color: aqua;
+}
+.fourth{
+    background-color: goldenrod;
+}*/
+
+/* Grouo based selection*/
+/*h1 ,.fourth, #first{
+    background-color: blue;
+} */
+ h1{
+    background-color: rgb(132, 28, 113);
+ }
+ 
