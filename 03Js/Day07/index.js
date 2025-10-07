@@ -12,7 +12,7 @@
 // console.log(marks);
 // console.log(marks.length);
 
-// let arr = [30,20,"Anny",true];
+// let arr = [10,20,"Anny",true];
 
 // console.log(arr[2]);
 // console.log(typeof arr);
@@ -24,7 +24,7 @@
 // push:Insert element at End
 
 // arr.push(90);
-// arr.push("strike");
+// arr.push("hello");
 
 // console.log(arr);
 
@@ -79,7 +79,7 @@
 // console.log(arr3);
 
 // const arr = [10,30,50,90,11];
-// const arr2 = ["Rohit",11,true];
+// const arr2 = ["Anny",11,true];
 // const arr4 = [90,4,false];
 
 // arr.push(arr2);
@@ -92,7 +92,7 @@
 // console.log(arr3);
 
 
-// const names = ["Alice", "Rohit","Bob","Mohit", "Charlie",];
+// const names = ["Alice", "Anny","Bob","Mohit", "Charlie",];
 
 // console.log(names.toString());
 // console.log(names.join("-"));
@@ -105,7 +105,7 @@
 // console.log(names);
 
 // const a = ["101","90","80","32","91"];
-// const arr = [10,"Rohit","Mohan",true];
+// const arr = [10,"Anny","Mohan",true];
 
 // arr.sort();
 // console.log(arr);

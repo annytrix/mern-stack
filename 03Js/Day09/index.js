@@ -96,13 +96,13 @@
 
 // const greeting = ()=> {
 //     return {
-//         name:"Rohit",
+//         name:"Anny",
 //         age:20,
 //     }
 // }
 
 
-// const greeting = ()=> ({ name:"Rohit",age:20});
+// const greeting = ()=> ({ name:"Anny",age:20});
 
 
 // console.log(greeting());

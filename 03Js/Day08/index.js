@@ -1,5 +1,5 @@
 // object
-// key value
+// key value in
 // const user = {
 //    name: "Anny",
 //    age: 20,
@@ -38,7 +38,7 @@
 // }
 
 // const user2 = user;
-// user2.age = 90;
+// user2.age = 50;
 
 // console.log(user);
 
