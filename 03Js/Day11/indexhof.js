@@ -1,48 +1,43 @@
 // Scope and closure , HOF
 // Global_> Accessible to everyone
 // functional -> accesible only to that function
-// Block level scope-> accesible only to that Block
-
-// let a = 10;
-// const b = 20;
-
-
-
-// if(true){
-//     let d = 30;
+// Block level scope-> accesible only to that Block (usi block ke ander)
+// let a = 40;
+//  const b = 30;
+  
+//  if(true){
+//  onsole.log(b)
     
 // }
+
+ 
+//  function greet(){
+//     let c=20;
+//     console.log(c)
+// }
+
+// greet();
+
+// let global =60;
 
  
 
 // function greet(){
 
-//     let c = 30;
-//    var e = 90;
-// }
+//     let global = 70;
+//    console.log(global)
 
-// // console.log(c);
-// console.log(e);
-// greet();
+// apne ander ki block ko check kerta hai
 
-
-// let global = 30;
-
-
-// function greet(){
-     
-//     let global = 40;
-   
-
-//     function meet(){
+//      function meet(){
 //         let global = 10;
-//         console.log(global);
-//     }
+//          console.log(global);
+//         }
     
-//     meet();
-// }
+//      meet();
+// }   
 
-// greet();
+//  greet();
 
 
 // function createCounter(){
@@ -56,22 +51,23 @@
 //     return increment;
 // }
 
-// // console.log(count);
-
+//  console.log(count);
+// count ko stack se  heap me push kr deta hai (memory excute kra deta h )
+// jisse count pass increment ka accssic hoga
 // const counter = createCounter();
 // console.log(counter());
 // console.log(counter());
 // console.log(counter());
 
 
-// let balance = 500;
+let balance = 200;
 
 
 
 
-// // // balance+="Rohit";
-// // balance-=500;
-// // console.log(balance);
+balance+="Anny";
+
+ console.log(balance);
 
 // let balance = 500;
 // // private
@@ -143,13 +139,13 @@
 // Higher order function
 
 
-function double(value){
+// function double(value){
 
-    return function execute(num){
-        return num*value;
-    }
+//     return function execute(num){
+//         return num*value;
+//     }
     
-}
+// }
 
-const n = double(20)(5);
-console.log(n);
+// const n = double(20)(5);
+// console.log(n);
