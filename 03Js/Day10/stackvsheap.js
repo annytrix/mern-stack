@@ -1,7 +1,7 @@
 // Execution Context
 // Memory allocation
-// a = 10
-// b = 20
+// a = 20
+// b = 40
 // addNumber = fnCode
 // sumResult1 = undefined
 // sumeResult2 = undefined
@@ -10,8 +10,8 @@
 
 
 // console.log(a);
-// var a = 10;
-// var b = 20;
+// var a = 20;
+// var b = 40;
 // // console.log(a);
 
 // // var sumResult1 = addNumber(a,b);
@@ -30,8 +30,8 @@
 
 // let const
 // Memory allocation
-// a = 10
-// b = 20
+// a = 20
+// b = 40
 // result = <uninitialised> (Temporal dead zone)
 // addNumber = <uninitialised> (Temporal dead zone)
 
@@ -39,14 +39,12 @@
 
 
 
-let a = 10;
-const b = 20;
-
-
-const result = addNumber(a,b);
-console.log(result);
+let a = 20;
+const b = 40;
 
 const addNumber = function(num1,num2){
     const sum = num1+num2;
     return sum;
 }
+    const result = addNumber(a,b);
+    console.log(result);
