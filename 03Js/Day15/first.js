@@ -1,4 +1,4 @@
 function handleClick(){
     const element = document.getElementById("first");
-     element.textContent = "strike is coming";
+     element.textContent = "Hii Anny";
 }
