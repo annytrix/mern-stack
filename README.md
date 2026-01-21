@@ -1,5 +1,6 @@
 # mern-stack
 project related to mern stack
+cd mern-stack
 <!-- 
 git branch
 git status
