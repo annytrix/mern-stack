@@ -66,8 +66,8 @@ const orderDetail = {
     orderId: 123123,
     food:["Pizza","biryani","coke"],
     cost: 620,
-    customer_name: "Rohit",
-    customer_location: "Dwarka",
+    customer_name: "Anny",
+    customer_location: "town",
     restaurant_location: "Delhi"
 }
 
